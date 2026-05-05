@@ -1,0 +1,24 @@
+# Compiled files
+out/
+cache/
+
+# Environment
+.env
+__pycache__/
+*.pyc
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Foundry
+broadcast/
+
+# Node modules
+client-ui/node_modules/
+helia-server/node_modules/
+server-api/node_modules/
