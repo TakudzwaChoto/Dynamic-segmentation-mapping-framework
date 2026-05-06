@@ -1,9 +1,13 @@
 # Dynamic Segmentation Mapping (DSM) Framework for Water Quality Management
+
 This project implements a **Water Quality Management System** using EVM-compatible blockchain (Sepolia testnet) with Dynamic Segmentation Mapping (DSM) to achieve efficient, scalable, and cost-effective data management.
+
 ---
 
 ## 📁 Project Structure
+
 ```bash
+
 ├── contracts/
 │   ├── OptimizedContract.sol
 │   ├── UnoptimizedContract.sol
