@@ -87,38 +87,6 @@ forge create contracts/OptimizedContract.sol:OptimizedContract \
   --rpc-url sepolia \
   --private-key YOUR_PRIVATE_KEY
 ```
-
-### Deploy UI
-
-```bash
-cd client-ui
-npm install
-npm run build
-surge build/ water-quality-resource-management.surge.sh
-```
-
----
-
-## ▶️ Running the App
-
-### API Server
-
-```bash
-cd server-api
-npm install
-npm start
-```
-
-### Frontend
-
-```bash
-cd client-ui
-npm install
-npm start
-```
-
----
-
 ## 📊 Key Results
 
 | Metric                | Optimized | Unoptimized | Improvement |
@@ -129,15 +97,12 @@ npm start
 
 ---
 
-## 🌐 Live Demo
-
+## 🌐 UI Deployment
 - UI: https://water-quality-resource-management.surge.sh/
 - Smart Contract: https://eth-sepolia.blockscout.com/
-
 ---
 
 ## ✨ Key Features
-
 - Smart Contract Deployment on Sepolia Testnet  
 - Dynamic Segmentation Mapping (DSM)  
 - Predictive ML Segmentation (Random Forest, 89.7% accuracy)  
@@ -148,7 +113,6 @@ npm start
 ---
 
 ## 📸 Screenshots
-
 ### Desktop
 ![Desktop](https://github.com/user-attachments/assets/8368603e-68b4-4701-b98f-290294302bf1)
 
