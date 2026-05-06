@@ -1,0 +1,22 @@
+{
+  "optimized": {
+    "cognitive_complexity": 3,
+    "nodes": 10,
+    "edges": 10,
+    "loops": 1,
+    "branches": 2,
+    "cyclomatic_complexity": 3,
+    "halstead_volume": 245,
+    "maintainability_index": 82
+  },
+  "unoptimized": {
+    "cognitive_complexity": 5,
+    "nodes": 12,
+    "edges": 12,
+    "loops": 2,
+    "branches": 3,
+    "cyclomatic_complexity": 5,
+    "halstead_volume": 387,
+    "maintainability_index": 68
+  }
+}

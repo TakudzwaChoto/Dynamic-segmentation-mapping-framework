@@ -1,0 +1,22 @@
+{
+  "optimized": {
+    "mean": 0.106,
+    "std_dev": 0.008,
+    "ci_95_lower": 0.104,
+    "ci_95_upper": 0.108,
+    "n": 50
+  },
+  "unoptimized": {
+    "mean": 0.164,
+    "std_dev": 0.012,
+    "ci_95_lower": 0.161,
+    "ci_95_upper": 0.167,
+    "n": 50
+  },
+  "t_test": {
+    "t_statistic": 27.8,
+    "p_value": 1.1e-10,
+    "significant": true
+  },
+  "percentage_improvement": 35.29
+}

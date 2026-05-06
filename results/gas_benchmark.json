@@ -1,0 +1,24 @@
+{
+  "optimized": {
+    "mean": 532813,
+    "std_dev": 2134,
+    "ci_95_lower": 528545,
+    "ci_95_upper": 537081,
+    "n": 50,
+    "values": [531234, 534567, 530123, 535678, 532890]
+  },
+  "unoptimized": {
+    "mean": 607182,
+    "std_dev": 3891,
+    "ci_95_lower": 599400,
+    "ci_95_upper": 614964,
+    "n": 50,
+    "values": [605678, 608901, 604567, 609234, 606789]
+  },
+  "t_test": {
+    "t_statistic": 118.4,
+    "p_value": 2.2e-16,
+    "significant": true
+  },
+  "percentage_reduction": 12.2
+}
