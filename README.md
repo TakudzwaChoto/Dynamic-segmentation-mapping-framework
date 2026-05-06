@@ -75,11 +75,9 @@ python3 scripts/gas_benchmark.py
 ```bash
 python3 scripts/predictive_segmentation.py
 ```
-
 ---
 
 ## 📦 Deployment
-
 ### Deploy Smart Contract
 
 ```bash
@@ -100,6 +98,14 @@ forge create contracts/OptimizedContract.sol:OptimizedContract \
 ## 🌐 UI Deployment
 - UI: https://water-quality-resource-management.surge.sh/
 - Smart Contract: https://eth-sepolia.blockscout.com/
+### User Interface (UI)
+The UI is built with **HTML5 and React** and deployed on **Surge**:
+🔗 **Live Application:** https://water-quality-resource-management.surge.sh/
+The frontend connects directly to **Remix IDE** for smart contract interaction. Users can:
+- Connect MetaMask to Sepolia testnet
+- Interact with the deployed DSM smart contract
+- Report, transact, and visualize water quality data
+- View gas consumption comparisons
 ---
 
 ## ✨ Key Features
