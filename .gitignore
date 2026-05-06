@@ -22,3 +22,7 @@ broadcast/
 client-ui/node_modules/
 helia-server/node_modules/
 server-api/node_modules/
+
+# Node modules (should never be committed)
+**/node_modules/
+**/package-lock.json
